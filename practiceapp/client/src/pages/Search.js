@@ -58,7 +58,7 @@ class Search extends Component {
     render() {
         return (
         <div>
-            <form onSubmit={this.handleInputChange}>
+            <form id="searchForm" onSubmit={this.handleInputChange}>
                 <input type="text" ref={this.inputRef} />
                 <button id="search">Search</button>
             </form>

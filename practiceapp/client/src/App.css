@@ -28,3 +28,7 @@ img {
   margin-right: auto;
   display: block;
 }
+
+#searchForm {
+  margin-left: 5rem;
+}
