@@ -22,3 +22,20 @@
 .jumbotron h3 {
   font-size: 24px;
 }
+
+/*-- Books & Search Styling -- */
+
+.container-fluid {
+  /* padding: 10px; */
+}
+
+.card {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 20px 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}

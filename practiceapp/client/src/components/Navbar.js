@@ -4,7 +4,7 @@ import Style from "./Style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg sticky-top">
       <span className="navbar-brand" href="#">
         Google Books
       </span>
