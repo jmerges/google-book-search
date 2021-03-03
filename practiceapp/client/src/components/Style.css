@@ -25,10 +25,6 @@
 
 /*-- Books & Search Styling -- */
 
-.container-fluid {
-  /* padding: 10px; */
-}
-
 .card {
   margin: 20px;
   margin-top: 30px;
@@ -38,4 +34,12 @@
 .search-container {
   display: flex;
   justify-content: center;
+}
+
+button {
+  background-color: rgb(94, 94, 170);
+  color: white;
+  padding: 2px 10px;
+  margin: 5px;
+  border-radius: 5px;
 }
