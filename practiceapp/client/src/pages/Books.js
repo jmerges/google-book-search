@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import API from "../utils/API";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-import Style from "../components/Style.css";
+import "../components/Style.css";
 
 class Books extends Component {
   state = {
@@ -56,7 +56,7 @@ class Books extends Component {
             <div className="card">
               <div className="row">
                 <div className="col-2 img-col">
-                  <img src={book.image} />
+                  <img src={book.image} alt="" />
                 </div>
                 <div className="col-2">
                   <p>Title: {book.title}</p>

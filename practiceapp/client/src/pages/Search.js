@@ -1,6 +1,6 @@
 import React, { Component, createRef } from "react";
 import API from "../utils/API";
-import Style from "../components/Style.css";
+import "../components/Style.css";
 
 class Search extends Component {
   state = {
@@ -69,7 +69,7 @@ class Search extends Component {
             <div className="card">
               <div className="row">
                 <div className="col-2 img-col">
-                  <img src={book.volumeInfo.imageLinks.thumbnail} />
+                  <img src={book.volumeInfo.imageLinks.thumbnail} alt="" />
                 </div>
                 <div className="col-2">
                   <p>Title: {book.volumeInfo.title}</p>
